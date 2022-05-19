@@ -1,0 +1,26 @@
+{
+  "name": "Text to Bionic Text",
+  "description": "Converts text to \"Bionic Text\" More info here: https://bionic-reading.com/about/ All credit for the concept goes to Bionic Reading GmbH",
+  "version": "0.0.0.1",
+  "manifest_version": 3,
+  "permissions": ["storage", 
+    "activeTab", 
+    "scripting"
+    ],
+  "host_permissions": ["http://*/","https://*/"],
+  "action": {
+	"default_popup": "popup.html",
+	"default_icon": {
+    "16": "/images/reading_robot16.png",
+    "32": "/images/reading_robot32.png",
+    "48": "/images/reading_robot48.png",
+    "128": "/images/reading_robot128.png"
+    }
+  },
+  "icons": {
+    "16": "/images/reading_robot16.png",
+    "32": "/images/reading_robot32.png",
+    "48": "/images/reading_robot48.png",
+    "128": "/images/reading_robot128.png"
+  }
+}
